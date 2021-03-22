@@ -1,10 +1,13 @@
 using System;
-class ProgramTest{
-	public ProgramTest(){
+class Test{
+	static public void Main(){
+		string s = "test";
+		Function.show(() => s );
 	}
-	public static void Main(){
-		ProgramTest P1 = new ProgramTest();
-		
+}
+
+class Function{
+	static public void show(Func<string > f){
+		Console.Write(f());
 	}
-	
-} 
+}
