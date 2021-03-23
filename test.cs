@@ -1,7 +1,7 @@
 using System;
 class Test{
 	static public void Main(){
-		string s = "test";//			 ↓これって何？引数？Functionのf？
+		string s = "test";//		↓これって何？引数？Functionのf？
 		Function.show(() => s );//ここの(() => s )
 	}
 }
